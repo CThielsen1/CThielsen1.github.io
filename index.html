@@ -2,120 +2,105 @@
 layout: default
 title: Chess Puzzles
 ---
-<div class="blurb">
-	<h1>Chess Puzzles</h1>
-	<p>Bishops and Knights is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place bishops and knights in the grid so that every row and column contains 
-		the same number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in that cell can attack/be attacked 
-		by. The pieces move in the same way that they move in chess. Assume that pieces do not block attacks when computing this number for bishops or knights. For 
-		example, a clue of 5 in a cell indicates that there is either a knight in that cell that can attack five other knights, or a bishop in that cell that can 
-		attack five other bishops.<br><br>
-
-	Bishops and Kings is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place bishops and kings in the grid so that every row and column contains the same 
-		number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in that cell can attack/be attacked by. The 
-		pieces move in the same way that they move in chess. Assume that pieces do not block attacks when computing this number for bishops or kings. For example, a 
-		clue of 5 in a cell indicates that there is either a king in that cell that can attack five other kings, or a bishop in that cell that can attack five other 
-		bishops.<br><br>
-
-	Kings and Knights is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place knights and kings in the grid so that every row and column contains the same 
-		number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in that cell can attack/be attacked by. The 
-		pieces move in the same way that they move in chess. Assume that pieces do not block attacks when computing this number for knights or kings. For example, a 
-		clue of 5 in a cell indicates that there is either a king in that cell that can attack five other kings, or a knight in that cell that can attack five other 
-		knights.<br><br>
-
-	Fairy Chess Sudoku is a puzzle consisting of a 5n x 5n grid. The goal is to correctly place bishops, knights, camels, manns, and princesses in the grid so that every 
-		row and column contains the same number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in that cell 
-		can attack/be attacked by. Bishops and knights move in the same way that they move in chess. A mann moves like a king does in chess. A camel moves in an L 
-		shape like a knight, but moves to a square that is three squares away horizontally and one square vertically, or three squares vertically and one square 
-		horizontally. A princess moves like both a bishop AND (not or) a knight. Assume that pieces do not block attacks when computing this number for any piece.
-		<br><br>
-
-	All credit for creating Bishops and Knights, Bishops and Kings, Kings and Knights, and Fairy Chess Sudoku goes to David Nacin.<br><br>
-
-	David Nacin is the author of the book <a href="https://www.amazon.com/Math-infused-Sudoku-Puzzle-Variants-Difficulty/dp/1470450909">Math-Infused Sudoku</a> and a 
-		professor at William Paterson University. He enjoys designing and studying puzzles that involve partition identities, the motion of chess pieces, finite 
-		groups, and other mathematical structures. He maintains a mathematical puzzle blog at <a href="http://quadratablog.blogspot.com/">quadratablog.blogspot.com</a>
-		.<br><br>
-
-	The provided executables will need to be extracted from the compressed folder to generate the csv puzzle files in their directory. The csv files generated are a file 
-		containing the requested puzzles and a file containing the solutions to those puzzles. Bishops and Knights, Bishops and Kings, and Kings and Knights asks 
-		whether you want puzzles generated with an obvious starting place or not. An obvious starting place is any cell that has a value great enough to easily 
-		determine the piece that belongs there. For example, a knight in a corner cell can only hit two other knights at most. If the value in a corner cell was 
-		greater than 2, a bishop would obviously go there because a knight cannot. Choosing yes would therefore generate puzzles that are more difficult. It is only 
-		possible to generate puzzles of size 4, 6, and 8 with this property.<br><br> 
-
-	I hope you enjoy playing these puzzles as much as I have!<br><br> <a href="/about">About these puzzles...</a></p>
-	
 
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			.collapsible {
+			  background-color: #777;
+			  color: white;
+			  cursor: pointer;
+			  padding: 18px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 15px;
+			}
 
-.active, .collapsible:hover {
-  background-color: #555;
-}
+			.active, .collapsible:hover {
+			  background-color: #555;
+			}
 
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-</style>
-</head>
-<body>
+			.content {
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			  background-color: #f1f1f1;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Chess Puzzles</h1>
+		<h2>Collapsibles</h2>
 
-<h2>Collapsibles</h2>
+		<p>Collapsible Set:</p>
+		<button type="button" class="collapsible">Bishops and Knights</button>
+		<div class="content">
+			<p>Bishops and Knights is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place bishops and knights in the grid so that every row and 
+				column contains the same number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in 
+				that cell can attack/be attacked by. The pieces move in the same way that they move in chess. Assume that pieces do not block attacks when 
+				computing this number for bishops or knights. For example, a clue of 5 in a cell indicates that there is either a knight in that cell that can 
+				attack five other knights, or a bishop in that cell that can attack five other bishops.</p>
+		</div>
+		<button type="button" class="collapsible">Bishops and Kings</button>
+		<div class="content">
+			<p>Bishops and Kings is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place bishops and kings in the grid so that every row and 
+				column contains the same number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in 
+				that cell can attack/be attacked by. The pieces move in the same way that they move in chess. Assume that pieces do not block attacks when 
+				computing this number for bishops or kings. For example, a clue of 5 in a cell indicates that there is either a king in that cell that can 
+				attack five other kings, or a bishop in that cell that can attack five other bishops.</p>
+		</div>
+		<button type="button" class="collapsible">Kings and Knights</button>
+		<div class="content">
+			<p>Kings and Knights is a puzzle consisting of a 2n x 2n grid. The goal is to correctly place knights and kings in the grid so that every row and 
+				column contains the same number of each. Every cell contains a number that indicates the number of pieces of the same type that the piece in 
+				that cell can attack/be attacked by. The pieces move in the same way that they move in chess. Assume that pieces do not block attacks when 
+				computing this number for knights or kings. For example, a clue of 5 in a cell indicates that there is either a king in that cell that can 
+				attack five other kings, or a knight in that cell that can attack five other knights.</p>
+		</div>
+		<button type="button" class="collapsible">Fairy Chess Sudoku</button>
+		<div class="content">
+			<p>Fairy Chess Sudoku is a puzzle consisting of a 5n x 5n grid. The goal is to correctly place bishops, knights, camels, manns, and princesses in the 
+				grid so that every row and column contains the same number of each. Every cell contains a number that indicates the number of pieces of the 
+				same type that the piece in that cell can attack/be attacked by. Bishops and knights move in the same way that they move in chess. A mann 
+				moves like a king does in chess. A camel moves in an L shape like a knight, but moves to a square that is three squares away horizontally and 
+				one square vertically, or three squares vertically and one square horizontally. A princess moves like both a bishop AND (not or) a knight. 
+				Assume that pieces do not block attacks when computing this number for any piece.</p>
+		</div>
+			
+		<p>All credit for creating Bishops and Knights, Bishops and Kings, Kings and Knights, and Fairy Chess Sudoku goes to David Nacin.<br><br>
 
-<p>A Collapsible:</p>
-<button type="button" class="collapsible">Open Collapsible</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+			David Nacin is the author of the book <a href="https://www.amazon.com/Math-infused-Sudoku-Puzzle-Variants-Difficulty/dp/1470450909">Math-Infused 
+			Sudoku</a> and a professor at William Paterson University. He enjoys designing and studying puzzles that involve partition identities, the motion of 
+			chess pieces, finite groups, and other mathematical structures. He maintains a mathematical puzzle blog at 
+			<a href="http://quadratablog.blogspot.com/">quadratablog.blogspot.com</a>.<br><br>
 
-<p>Collapsible Set:</p>
-<button type="button" class="collapsible">Open Section 1</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="collapsible">Open Section 2</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="collapsible">Open Section 3</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+			The provided executables will need to be extracted from the compressed folder to generate the csv puzzle files in their directory. The csv files 
+			generated are a file containing the requested puzzles and a file containing the solutions to those puzzles. Bishops and Knights, Bishops and Kings, 
+			and Kings and Knights asks whether you want puzzles generated with an obvious starting place or not. An obvious starting place is any cell that has a 
+			value great enough to easily determine the piece that belongs there. For example, a knight in a corner cell can only hit two other knights at most. If 
+			the value in a corner cell was greater than 2, a bishop would obviously go there because a knight cannot. Choosing yes would therefore generate 
+			puzzles that are more difficult. It is only possible to generate puzzles of size 4, 6, and 8 with this property.<br><br> 
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+			I hope you enjoy playing these puzzles as much as I have!<br><br> <a href="/about">About these puzzles...</a></p>
+		
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-</body>
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.display === "block") {
+			      content.style.display = "none";
+			    } else {
+			      content.style.display = "block";
+			    }
+			  });
+			}
+		</script>
+	</body>
 </html>
-
-</div><!-- /.blurb -->
