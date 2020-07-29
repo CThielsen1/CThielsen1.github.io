@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1:before {
-  content: ' \2655' ' \2656' ' \2659';
+  content: '\2655' ' \2656' ' \2659' '\0020';
 }
 h1 {
     font-size: 3em;
