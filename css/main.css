@@ -22,6 +22,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
 }
 h1:before {
 	content: ' \265B' ' \2656' ' \265F' ' \2654' ' \265E' ' \2657' ' \0020';
