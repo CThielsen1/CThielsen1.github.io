@@ -27,7 +27,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h1:after {
-  content: ' \2654' ' \2657' ' \2658';
+  content: ' \2654' ' \2658' ' \2657';
 }
 p {
     font-size: 1.5em;
