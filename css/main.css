@@ -26,9 +26,11 @@ h1 {
 }
 h1:before {
     content: ' \265B' ' \2656' ' \265F' ' \2654' ' \265E' ' \2657' ' \0020';
+    float: left;
 }
 h1:after {
     content: ' \2655' ' \265C' ' \2659' ' \265A' ' \2658' ' \265D';
+    float: right;
 }
 p {
     font-size: 1.5em;
