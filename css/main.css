@@ -24,17 +24,17 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h1:before {
-    font-size: 2vw;
+    font-size: 3vw;
     content: '\265B' '\2656' '\265F' '\2654' '\265E' '\2657';
     float: left;
 }
 h1:after {
-    font-size: 2vw;
+    font-size: 3vw;
     content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D';
     float: right;
 }
