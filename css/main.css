@@ -31,7 +31,7 @@ h1 {
 }
 h1:before {
     font-size: 3vw;
-    content: '\265B' '\2656' '\265F' '\2654' '\265E' '\2657';
+    content: '\265B' '\2656' '\265F\FE0E' '\2654' '\265E' '\2657';
     float: left;
 }
 h1:after {
