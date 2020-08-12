@@ -8,6 +8,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1vw;
 }
 nav ul li, footer ul li {
     font-family: Arial, Helvetica, sans-serif;
@@ -47,5 +48,5 @@ p {
 footer {
     font-family: Arial, Helvetica, sans-serif;
     border-top: 1px solid #d5d5d5;
-    font-size: .8vw;
+    font-size: 1vw;
 }
