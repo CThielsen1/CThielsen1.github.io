@@ -36,8 +36,9 @@ h1::before {
     float: left;
 }
 h1::after {
-    font-size: 3.25vw;
-    content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D';
+    <!-- font-size: 3.25vw; -->
+    <!-- content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D'; -->
+    content: url(../ChessPieces/blackCamel.png);
     float: right;
 }
 p {
