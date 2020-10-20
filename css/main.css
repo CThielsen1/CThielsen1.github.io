@@ -29,19 +29,17 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-h1::before {
+h1:before {
     <!-- font-size: 3.25vw; -->
     <!-- content: '\265B' '\2656' '\265F\FE0E' '\2654' '\265E' '\2657'; -->
     <!-- float: left; -->
-    content:'';
-    background: url("../ChessPieces/blackCamel.png");
+    content: url("../ChessPieces/blackCamel.png");
 }
-h1::after {
+h1:after {
     <!-- font-size: 3.25vw; -->
     <!-- content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D'; -->
     <!-- float: right; -->
-    content:'';
-    background: url("../ChessPieces/blackCamel.png");
+    content: url("../ChessPieces/blackCamel.png");
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
