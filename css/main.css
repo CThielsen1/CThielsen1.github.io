@@ -32,14 +32,20 @@ h1 {
 h1::before {
     <!-- font-size: 3.25vw; -->
     <!-- content: '\265B' '\2656' '\265F\FE0E' '\2654' '\265E' '\2657'; -->
-    content: url(../ChessPieces/blackCamel.png);
     <!-- float: left; -->
+    content:'';
+    background: url(../ChessPieces/blackCamel.png);
+    height: 16px; /*height of image*/
+    width: 33px;  /*width of image*/
 }
 h1::after {
     <!-- font-size: 3.25vw; -->
     <!-- content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D'; -->
-    content: url(../ChessPieces/blackCamel.png);
     <!-- float: right; -->
+    content:'';
+    background: url(../ChessPieces/blackCamel.png);
+    height: 16px; /*height of image*/
+    width: 33px;  /*width of image*/
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
