@@ -34,7 +34,7 @@ h1::before {
     <!-- content: '\265B' '\2656' '\265F\FE0E' '\2654' '\265E' '\2657'; -->
     <!-- float: left; -->
     content:'';
-    background: url(../ChessPieces/blackCamel.png);
+    background: url('../ChessPieces/blackCamel.png');
     height: 16px; /*height of image*/
     width: 33px;  /*width of image*/
 }
@@ -43,7 +43,7 @@ h1::after {
     <!-- content: '\2655' '\265C' '\2659' '\265A' '\2658' '\265D'; -->
     <!-- float: right; -->
     content:'';
-    background: url(../ChessPieces/blackCamel.png);
+    background: url('../ChessPieces/blackCamel.png');
     height: 16px; /*height of image*/
     width: 33px;  /*width of image*/
 }
