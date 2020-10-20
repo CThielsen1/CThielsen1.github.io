@@ -32,7 +32,7 @@ h1 {
 h1::before {
     <!-- font-size: 3.25vw; -->
     <!-- content: '\265B' '\2656' '\265F\FE0E' '\2654' '\265E' '\2657'; -->
-    content: url(blackCamel.png);
+    content: url(../../ChessPieces/blackCamel.png);
     float: left;
 }
 h1::after {
